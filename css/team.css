@@ -1,0 +1,118 @@
+section {
+    padding: 10rem 0;
+}
+
+
+.team {
+    background: rgb(219, 223, 231);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+
+}
+
+.team-text {
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.team-text h3 {
+    color: red;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.team-member {
+    background: white;
+    padding: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.team-member:hover {
+    background: transparent;
+    border-color: red;
+
+}
+
+.team-member-image img {
+    border-radius: 20px;
+}
+
+/* .team-member-image img {
+    filter: saturate(0);
+}
+
+.team-member-image:hover img {
+    filter: saturate(1);
+} */
+
+.team-member-info * {
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+.team-member-info {
+    color: black;
+}
+
+.team-member-socials {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -100%;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
+
+}
+
+
+.team-member:hover .team-member-socials {
+    right: 0;
+}
+
+.team-member-socials a {
+    padding: 1rem;
+}
+
+.team-member-socials a:hover {
+    background: white;
+    border-radius: 1rem 0 0 1rem;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .team-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .team-member {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .team-container {
+        grid-template-columns: 1fr;
+        gap: 0.7rem;
+    }
+
+    .team-member {
+        padding: 0;
+    }
+
+    .team-member p {
+        margin-bottom: 1.5rem;
+    }
+}
