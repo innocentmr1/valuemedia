@@ -716,6 +716,12 @@ footer {
         margin-bottom: 2rem;
     }
 
+    .media {
+        background: transparent;
+        margin-left: none;
+        margin-right: none;
+    }
+
     .media-boxes {
         display: grid;
         grid-template-columns: 1fr;
