@@ -718,8 +718,8 @@ footer {
 
     .media {
         background: transparent;
-        margin-left: none;
-        margin-right: none;
+        margin-left: 1px;
+        margin-right: 1px;
     }
 
     .media-boxes {
