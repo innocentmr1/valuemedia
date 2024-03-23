@@ -730,6 +730,13 @@ footer {
 
     }
 
+    .buses {
+        background: transparent;
+        margin-top: 3rem;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
     .bus-img {
         display: grid;
         grid-template-columns: 1fr;
