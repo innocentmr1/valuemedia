@@ -10,9 +10,9 @@
 
 }
 
-.contact-1 {
-    /* text-align: center; */
-}
+/* .contact-1 {
+    text-align: center;
+} */
 
 
 .contact-1 h2 {
@@ -70,9 +70,9 @@
 .contact-socials a {
     background: white;
     padding: 0.5rem;
-    border-radius: 40%;
+    border-radius: 30%;
     font-size: 1.2rem;
-    transition: var(--transition);
+    transition: ease-in;
 }
 
 .contact-socials a:hover {

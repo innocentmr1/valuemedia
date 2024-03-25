@@ -1,0 +1,233 @@
+.c-section {
+    position: relative;
+    background-color: #ffffff;
+}
+
+.c-section-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.c-section-video video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.c-section-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.c-section-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #111111;
+}
+
+.c-section-video+.c-container,
+.c-section-photo+.c-container,
+.c-section-overlay+.c-container {
+    position: relative;
+}
+
+.c-section.-space-xsmall {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.c-section.-space-xsmall-top {
+    padding-top: 20px;
+}
+
+.c-section.-space-xsmall-bottom {
+    padding-bottom: 20px;
+}
+
+.c-section.-space-small {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.c-section.-space-small-top {
+    padding-top: 50px;
+}
+
+.c-section.-space-small-bottom {
+    padding-bottom: 50px;
+}
+
+.c-section.-space-medium {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.c-section.-space-medium-top {
+    padding-top: 100px;
+}
+
+.c-section.-space-medium-bottom {
+    padding-bottom: 100px;
+}
+
+@media (max-width: 1199px) {
+    .c-section.-space-large {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .c-section.-space-large {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .c-section.-space-large-top {
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .c-section.-space-large-top {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .c-section.-space-large-bottom {
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .c-section.-space-large-bottom {
+        padding-bottom: 120px;
+    }
+}
+
+.c-section.-bg-white {
+    background-color: #ffffff;
+}
+
+.c-section.-bg-grey {
+    background-color: #eeeef0;
+}
+
+.c-section.-bg-grey-light {
+    background-color: #fafafa;
+}
+
+.c-section.-bg-dark {
+    background-color: #111111;
+}
+
+.c-section.-bg-green {
+    background-color: #E25955;
+}
+
+.c-section.-bg-blue-light {
+    background-color: #f6f8f9;
+}
+
+.c-section.u-flex .c-container {
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+
+.c-section[data-cursor-overlay="1"] .c-section-overlay {
+    -webkit-opacity: 0.1;
+    -khtml-opacity: 0.1;
+    -moz-opacity: 0.1;
+    opacity: 0.1;
+}
+
+.c-section[data-cursor-overlay="2"] .c-section-overlay {
+    -webkit-opacity: 0.2;
+    -khtml-opacity: 0.2;
+    -moz-opacity: 0.2;
+    opacity: 0.2;
+}
+
+.c-section[data-cursor-overlay="3"] .c-section-overlay {
+    -webkit-opacity: 0.3;
+    -khtml-opacity: 0.3;
+    -moz-opacity: 0.3;
+    opacity: 0.3;
+}
+
+.c-section[data-cursor-overlay="4"] .c-section-overlay {
+    -webkit-opacity: 0.4;
+    -khtml-opacity: 0.4;
+    -moz-opacity: 0.4;
+    opacity: 0.4;
+}
+
+.c-section[data-cursor-overlay="5"] .c-section-overlay {
+    -webkit-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.c-section[data-cursor-overlay="6"] .c-section-overlay {
+    -webkit-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+
+.c-section[data-cursor-overlay="7"] .c-section-overlay {
+    -webkit-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+.c-section[data-cursor-overlay="8"] .c-section-overlay {
+    -webkit-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+
+.c-section[data-cursor-overlay="9"] .c-section-overlay {
+    -webkit-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+}
+
+
+
+
+.top {
+    text-align: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
