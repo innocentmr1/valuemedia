@@ -321,33 +321,45 @@ p {
     margin-right: 5rem;
     text-align: left;
 }
+
 .ul li {
     list-style: disc;
     font-weight: 400;
 
 }
+
+p {
+    margin: 3rem;
+    font-weight: 100;
+}
+
+.text-1 {
+    padding-top: 9rem;
+}
+
 .top-exterior {
-  
+
     gap: 2rem;
-   
+
 }
 
 
 @media screen and (max-width:600px) {
     .top-2 {
         display: grid;
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
         gap: 2rem;
-        margin-left: 2rem; 
+        margin-left: 2rem;
         margin-right: 1rem;
         margin-top: 7rem;
 
     }
+
     .ul li {
         list-style: disc;
         font-weight: 400;
-    
+
     }
-    
+
 
 }
