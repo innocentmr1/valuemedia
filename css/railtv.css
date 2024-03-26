@@ -225,15 +225,18 @@
 
 
 
-.top h6 {
+ .top h6 {
     color: red;
     font-size: 1rem;
 }
 
 .top {
-    text-align: center;
     gap: 2rem;
     margin-bottom: 2rem;
+    text-align: center;
+}
+.fir{
+    border-radius: 20px;
 }
 
 .top-2 {
@@ -245,17 +248,17 @@
     text-align: left;
     margin-top: 7rem;
 
-}
+} 
 
 
 
-
+/* 
 .top-2 img {
   
 
-}
+} */
 
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
     .top-2 {
         display: grid;
         grid-template-columns:1fr;
@@ -266,4 +269,4 @@
     
     }
      
-}
+} */
