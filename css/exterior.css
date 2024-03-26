@@ -338,9 +338,8 @@ p {
         display: grid;
         grid-template-columns:1fr;
         gap: 2rem;
-        margin-left: 9rem; 
-        margin-right: 5rem;
-        text-align: left;
+        margin-left: 1rem; 
+        margin-right: 1rem;
         margin-top: 7rem;
 
     }
