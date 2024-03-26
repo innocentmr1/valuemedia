@@ -243,8 +243,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     text-align: left;
     margin-top: 7rem;
 
@@ -258,15 +258,12 @@
 
 } */
 
-/* @media screen and (max-width:600px) {
+@media screen and (max-width:600px) {
     .top-2 {
         display: grid;
         grid-template-columns:1fr;
         gap: 2rem;
-
-        text-align: left;
-        margin-top: 7rem;
     
     }
      
-} */
+}
