@@ -281,3 +281,18 @@
 .text-1 {
     padding-top: 9rem;
 } */
+
+
+@media screen and(maxwidth:600px) {
+    .top-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
+    
+    }
+    
+    
+}
