@@ -225,7 +225,7 @@
 
 
 
-
+/* 
 .top {
     text-align: center;
     gap: 2rem;
@@ -301,17 +301,38 @@ p {
 
     justify-self: center;
     width: 40%;
+} */
+.top h6 {
+    color: red;
+    font-size: 1rem;
 }
+
+.top {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.top-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: left;
+}
+
+
 @media screen and (max-width:600px) {
     .top-2 {
-        display: grid;
+        /* display: grid;
         grid-template-columns:1fr;
         gap: 2rem;
-        /* margin-left: 9rem; */
-        /* margin-right: 5rem; */
+        margin-left: 9rem; 
+        margin-right: 5rem;
         text-align: left;
-        margin-top: 7rem;
-    
+        margin-top: 7rem; */
+
     }
-    
+
 }
