@@ -225,7 +225,7 @@
 
 
 
- .top h6 {
+.top h6 {
     color: red;
     font-size: 1rem;
 }
@@ -235,7 +235,8 @@
     margin-bottom: 2rem;
     text-align: center;
 }
-.fir{
+
+.fir {
     border-radius: 20px;
 }
 
@@ -248,7 +249,7 @@
     text-align: left;
     margin-top: 7rem;
 
-} 
+}
 
 
 
@@ -261,9 +262,12 @@
 @media screen and (max-width:600px) {
     .top-2 {
         display: grid;
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
         gap: 2rem;
-    
+
     }
-     
+
+    .c-section li {
+        list-style: disc;
+    }
 }
