@@ -384,5 +384,10 @@ p {
 .top-exterior{
     grid-template-columns: 1fr ;
 }
+.top-exterior img {
+    width: 90%;
+    height: 70%;
+    margin-top: 10rem;
 
+}
 }
