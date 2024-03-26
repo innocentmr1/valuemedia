@@ -243,36 +243,33 @@
     margin-left: 5rem;
     margin-right: 5rem;
     text-align: left;
+    margin-top: 7rem;
+
 }
 
-.align-items-center {
+
+/* .align-items-center {
     align-items: center;
-}
+    
+} */
 
 .top-2 img {
     width: 80%;
-    height: 70%;
+    height: 90%;
+    border-radius: 10px;
 
-}
-
-.text-1 {
-    padding-top: 9rem;
 }
 
 @media screen and (max-width:600px) {
     .top-2 {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns:1fr;
         gap: 2rem;
         /* margin-left: 9rem; */
         /* margin-right: 5rem; */
         text-align: left;
         margin-top: 7rem;
-
+    
     }
-
-    iframe {
-        width: 500px;
-    }
-
+     
 }

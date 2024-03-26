@@ -232,3 +232,31 @@
     gap: 2rem;
     margin-bottom: 2rem;
 }
+
+.top h6 {
+    color: red;
+    font-size: 1rem;
+}
+
+.top-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: left;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.top-2 img {
+    width: 80%;
+    height: 70%;
+
+}
+
+.text-1 {
+    padding-top: 9rem;
+}
