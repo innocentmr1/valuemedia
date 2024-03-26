@@ -364,6 +364,9 @@ p {
         font-weight: 400;
 
     }
-
+    .top-exterior img {
+       margin: 3rem;
+    }
+    
 
 }
