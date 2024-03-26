@@ -224,10 +224,31 @@
 }
 
 
-
-
+.top h6 {
+    color: red;
+    font-size: 1rem;
+}
 
 .top {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.top-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 7rem;
+
+}
+
+
+
+
+/* .top {
     text-align: center;
     gap: 2rem;
     margin-bottom: 2rem;
@@ -259,4 +280,4 @@
 
 .text-1 {
     padding-top: 9rem;
-}
+} */
