@@ -357,7 +357,7 @@ p {
 .top-exterior img {
     /* width: 50%;
     height: 50%; */
-    margin-top: 10rem;
+    margin-top: 8rem;
 
 }
 
@@ -379,7 +379,7 @@ p {
     }
 
     .top-exterior img {
-        gap: 30rem;
+        gap: 3rem;
     }
 .top-exterior{
     grid-template-columns: 1fr ;
@@ -387,7 +387,7 @@ p {
 .top-exterior img {
     /* width: 95%; */
     height: 70%;
-    margin-top: 10rem;
+    margin-top: 8rem;
 
 }
 }
