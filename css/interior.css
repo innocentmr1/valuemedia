@@ -283,7 +283,7 @@
 } */
 
 
-@media screen and(maxwidth:600px) {
+@media screen and (max-width:600px) {
     .top-2 {
         display: grid;
         grid-template-columns: 1fr;
@@ -291,8 +291,8 @@
         margin-left: 2rem;
         margin-right: 2rem;
         margin-top: 2rem;
-    
+
     }
-    
-    
+
+
 }
