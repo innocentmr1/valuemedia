@@ -695,18 +695,15 @@
 .text-1 {
     padding-top: 9rem;
 }
+
 @media screen and (max-width:600px) {
     .top-2 {
         display: grid;
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
         gap: 2rem;
-        /* margin-left: 9rem; */
-        /* margin-right: 5rem; */
-        text-align: left;
-        margin-top: 7rem;
-    
     }
-    iframe{
+
+    iframe {
         width: 95%;
     }
 }
