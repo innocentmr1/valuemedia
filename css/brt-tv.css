@@ -305,4 +305,7 @@ p {
         list-style: disc;
 
     }
+    iframe{
+        width: 90%;
+    }
 }
