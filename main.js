@@ -1,7 +1,7 @@
 //navbar
 window.addEventListener("scroll", () => {
   document
-    .querySelector("nav")
+    .querySelector("header")
     .classList.toggle("window-scroll", window.scrollY > 0);
 });
 
