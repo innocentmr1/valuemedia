@@ -262,7 +262,7 @@
 @media screen and (max-width:600px) {
     .top-2 {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; 
         gap: 2rem;
 
     }

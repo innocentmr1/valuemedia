@@ -315,7 +315,7 @@ p {
 
 .top-2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
     margin-left: 5rem;
     margin-right: 5rem;
@@ -388,4 +388,55 @@ p {
     margin-top: 5rem;
 
 }
+}
+
+
+/*  buses */
+
+.buses {
+    background: transparent;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+
+.our-buses {
+    text-align: center;
+}
+
+.our-buses h3 {
+    color: red;
+}
+
+.our-buses p {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.bus img {
+    border-radius: 20px;
+}
+
+.bus-imgg {
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    gap: 2rem;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+.btn-primaryy {
+    background: transparent;
+    color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    font-size: 10px;
+    margin: 2rem;
+}
+
+.btn-primaryy:hover {
+    background: red;
+    color: black;
 }
