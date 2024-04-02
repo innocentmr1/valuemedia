@@ -371,27 +371,7 @@ p {
 
     }
 
-    .ul li {
-        list-style: disc;
-        font-weight: 400;
-
-    }
-
-    .top-exterior img {
-        gap: 1rem;
-    }
-
-    .top-exterior {
-        grid-template-columns: 1fr;
-    }
-
-    .top-exterior img {
-
-        margin-top: 5rem;
-
-    }
-
-    .bus-imgg {
+    .bus-img {
         display: grid;
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -399,8 +379,30 @@ p {
         border-radius: 20px;
 
     }
+
+
+.ul li {
+    list-style: disc;
+    font-weight: 400;
+
 }
 
+.top-exterior img {
+    gap: 1rem;
+}
+
+.top-exterior {
+    grid-template-columns: 1fr;
+}
+
+.top-exterior img {
+
+    margin-top: 5rem;
+
+}
+
+
+}
 
 /*  buses */
 
