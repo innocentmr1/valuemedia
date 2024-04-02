@@ -355,7 +355,7 @@ p {
 }
 
 .top-exterior img {
-   
+
     margin-top: 8rem;
 
 }
@@ -380,22 +380,25 @@ p {
     .top-exterior img {
         gap: 1rem;
     }
-.top-exterior{
-    grid-template-columns: 1fr ;
-}
-.top-exterior img {
- 
-    margin-top: 5rem;
 
-}
-.bus-imgg {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    margin: 20px;
-    border-radius: 20px;
+    .top-exterior {
+        grid-template-columns: 1fr;
+    }
 
-}
+    .top-exterior img {
+
+        margin-top: 5rem;
+
+    }
+
+    .bus-imgg {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin: 20px;
+        border-radius: 20px;
+
+    }
 }
 
 
@@ -428,7 +431,7 @@ p {
 
 .bus-imgg {
     display: grid;
-    grid-template-columns: 1fr  1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin: 20px;
     border-radius: 20px;
