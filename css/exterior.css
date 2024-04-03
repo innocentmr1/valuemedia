@@ -1,4 +1,4 @@
-.c-section {
+/* .c-section {
     position: relative;
     background-color: #ffffff;
 }
@@ -221,7 +221,7 @@
     -khtml-opacity: 0.9;
     -moz-opacity: 0.9;
     opacity: 0.9;
-}
+} */
 
 
 
@@ -294,14 +294,6 @@ p {
         margin-right: 1rem;
         margin-top: 7rem;
 
-    }
-
-    .bus-imgg {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        margin: 20px;
-        border-radius: 20px;
     }
 
 
