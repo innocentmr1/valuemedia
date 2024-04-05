@@ -1,0 +1,30 @@
+.container {
+    margin-top: 7rem;
+}
+
+.station {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.station img {
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+
+
+}
+
+.stations {}
+
+
+
+@media screen and (max-width:600px) {
+    .station {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
