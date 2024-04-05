@@ -1,21 +1,34 @@
 .container {
     margin-top: 7rem;
+    
 }
 
 .station {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 2rem;
+    border-bottom: 1.5px double black;
 }
 
 .station img {
     width: 450px;
-    height: 350px;
+    height: 400px;
     object-fit: cover;
     object-position: top;
+    border-radius: 1rem;
 
+}
 
+.top h6 {
+    color: red;
+    font-size: 1rem;
+}
+
+.top {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 .stations {}
