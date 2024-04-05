@@ -1,0 +1,40 @@
+.team {
+    padding: 10rem 0;
+}
+
+
+.team {
+    background: rgb(219, 223, 231);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+
+}
+
+.team-text {
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.team-text h3 {
+    color: red;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    padding: 5px;
+
+
+}
+
+.gallery {
+    margin: 2rem;
+    display: flex;
+    max-width: 1200px;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
