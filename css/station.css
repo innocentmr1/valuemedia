@@ -40,13 +40,13 @@
 }
 
 .img-containn {
-    height: 50vh;
+    height: 100vh;
     width: 100%;
 }
 
 .img-containn img {
-    /* width: 450px;
-    height: 400px; */
+    width: 450px;
+    height: 400px;
     position:absolute;
     object-fit: cover;
     object-position: top;
