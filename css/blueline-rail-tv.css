@@ -223,7 +223,11 @@
     opacity: 0.9;
 }
 
+.lii li {
+    list-style: disc;
+    padding: 1px;
 
+}
 
 .top h6 {
     color: red;
