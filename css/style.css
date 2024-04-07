@@ -697,6 +697,7 @@ img:nth-of-type(3) {
 
 .faq.open p {
     display: block;
+    background-color: antiquewhite;
 }
 
 
@@ -870,7 +871,7 @@ footer {
 @media screen and (max-width:900px) {
 
     .wrapper {
-        margin-top: -40px;
+        margin-top: -60px;
     }
 
     .container {
