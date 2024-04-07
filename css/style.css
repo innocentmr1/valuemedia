@@ -158,7 +158,7 @@ header .navbar ul li:hover>ul {
 
 header label {
     font-size: 20px;
-    color: yellow;
+    color: red;
     cursor: pointer;
     display: none;
 }
