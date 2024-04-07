@@ -19,7 +19,7 @@
     color: red;
 }
 
-img {
+.team img {
     width: 300px;
     height: 250px;
     object-fit: cover;
