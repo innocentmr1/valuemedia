@@ -25,6 +25,7 @@
 
 .lii li {
     list-style: disc;
+    margin-left: 2rem;
 }
 
 .top h6 {
