@@ -868,6 +868,11 @@ footer {
 }
 
 @media screen and (max-width:900px) {
+
+    .wrapper {
+        margin-top: -20px;
+    }
+
     .container {
         width: 94%;
     }
