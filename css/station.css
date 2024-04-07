@@ -9,7 +9,9 @@
     /* justify-content: space-between; */
     padding: 2rem;
     gap: 2rem;
+    border-top: 1.5px double black;
     border-bottom: 1.5px double black;
+
 }
 
 .station img {
@@ -19,6 +21,10 @@
     object-position: top; */
     border-radius: 1rem;
 
+}
+
+.lii li {
+    list-style: disc;
 }
 
 .top h6 {
@@ -51,5 +57,3 @@
 
     }
 }
-
-
