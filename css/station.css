@@ -23,6 +23,10 @@
 
 }
 
+.end {
+    margin-bottom: 2rem;
+}
+
 .lii li {
     list-style: disc;
     margin-left: 2rem;
