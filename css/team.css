@@ -9,6 +9,10 @@
 
 }
 
+.team p {
+    color: red;
+}
+
 .team-text {
     text-align: center;
     margin-bottom: 2rem;
